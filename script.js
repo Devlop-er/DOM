@@ -5,7 +5,7 @@ var texte = document.getElementById("tache");
 var ul = document.querySelector("ul");
 
 function textLength() {
-    return text.value.length;
+    return texte.value.length;
 }
 
 function textInput() {
@@ -13,7 +13,7 @@ function textInput() {
     // Insertion du texte taper par l'utilisateur
     li.appendChild(document.createTextNode(texte.value));
     ul.appendChild(li);
-    text.value = "";
+    texte.value = "";
 }
 
 // Ajouter un évènement au click sur le "button"
