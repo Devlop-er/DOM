@@ -23,17 +23,14 @@ button.addEventListener("click", function() {
     if (textLength() > 0) {
         textInput();
     } else {
-        alert("La case est vide...")
     }       
 })
 
 texte.addEventListener("keypress", function(event) {
-
     // Condition si la valeur est supérieur à 0 executer le code sinon afficher une alert
-    if (textLength() > 0 && event.keycode === 13) {
+    if (textLength() > 0 && event.keyCode === 13) {
         textInput();
     } else {
-        alert("La case est vide...")
     }       
 })
 
