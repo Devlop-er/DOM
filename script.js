@@ -27,7 +27,7 @@ button.addEventListener("click", function() {
     }       
 })
 
-text.addEventListener("keypress", function(event) {
+texte.addEventListener("keypress", function(event) {
 
     // Condition si la valeur est supérieur à 0 executer le code sinon afficher une alert
     if (textLength() > 0 && event.keycode === 13) {
